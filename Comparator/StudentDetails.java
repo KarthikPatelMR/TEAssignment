@@ -14,8 +14,8 @@ public class StudentDetails {
 	}
 	@Override
 	public String toString() {
-		return student_id + " " + student_name + " "
-				+ student_age + " " + student_marks;
+		return "Id: "+student_id + " Name: " + student_name + " Age: "
+				+ student_age + " Marks: " + student_marks;
 	}
 	
 }
