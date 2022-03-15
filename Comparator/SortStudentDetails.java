@@ -28,7 +28,7 @@ public class SortStudentDetails {
 			default:
 				break;
 		}
-		//Collections.sort(al, new SortId());
+
 		for (StudentDetails sd : al) {
 			System.out.println(sd);
 		}
