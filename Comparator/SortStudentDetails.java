@@ -34,11 +34,11 @@ public class SortStudentDetails {
 		}
 		
 		System.out.print("Wanna Continue Sorting?(y/n): ");
-		String y = "y";
+		
 		if(scn.next().equals(y)) {
 			sortByChoice();
 		}else {
-			System.exit(1);
+			System.exit(0);
 		}
 	}
 
